@@ -1,3 +1,5 @@
 *.zip
 manifest.min.json
 .vscode/settings.min.json
+app.pem
+app.crx

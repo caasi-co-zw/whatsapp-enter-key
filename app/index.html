@@ -3,16 +3,38 @@
 		<!-- Some stylesheets go here -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/css/style.min.css" />
+
 		<!-- Some scripts go here -->
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
 		<script src="assets/js/jquery-3.6.0.min.js"></script>
 	</head>
 	<body>
 		<!-- The Content -->
-		<div
-			id="qrcode"
-			style="width: 100px; height: 100px; margin-top: 15px"
-		></div>
+		<main class="container-fluid jumbotron-fluid">
+			<div class="form-floating mb-3">
+				<input
+					type="text"
+					class="form-control"
+					name="mesageBoxSelector"
+					id="mesageBoxSelector"
+					placeholder=""
+				/>
+				<label for="mesageBoxSelector">Selector</label>
+			</div>
+			<div class="form-floating mb-3">
+				<select
+					class="form-select form-select-lg"
+					name="enableApp"
+					id="enableApp"
+				>
+					<option value="on">Send</option>
+					<option value="off">Do not send</option>
+				</select>
+				<label for="enableApp" class="form-label"
+					>Send message on Enter</label
+				>
+			</div>
+		</main>
 		<script src="assets/js/app.min.js"></script>
 	</body>
 </html>
