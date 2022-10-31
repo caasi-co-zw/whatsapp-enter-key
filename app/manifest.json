@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Whatsapp Enter Key",
+  "short_name": "WAEK",
+  "description": "Changes the behaviour of the enter key on whatsapp web.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://web.whatsapp.com"],
+  "action": {
+    "default_icon": {},
+    "default_title": "Settings",
+    "default_popup": "index.html"
+  }
+}
