@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "WAIncognito",
-  "short_name": "WAIncognito",
-  "description": "Be invisible on WhatsApp™ Web by disabling read receipts and presence updates",
-  "version": "1.9.6",
-  "permissions": ["storage"],
+  "name": "WhatsApp Enter Key",
+  "short_name": "WhatsApp Enter Key",
+  "description": "Changes the behaviour of the enter key on whatsapp web.",
+  "version": "1.0.1",
+  "permissions": [],
    "icons":  { "128": "images/icon_128_blue.png" },
    "action": {
     "default_icon": "images/icon_128_reshaped.png"
@@ -14,7 +14,7 @@
     "service_worker": "background.js"
    },
    "host_permissions": ["https://web.whatsapp.com/*"],
-   "content_scripts": 
+   "content_scripts":
    [
   	{
       "matches": ["https://web.whatsapp.com/*"],
