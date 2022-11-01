@@ -1,5 +1,6 @@
 # Change enter key behaviour
 
+**NB**: Extension is still under development
 This changes the behaviour of the enter key in whatsapp web.
 
 
