@@ -1,11 +1,13 @@
 main {
 	min-width: 450px !important;
 }
+
 [contenteditable]:focus,
 input:focus,
 select:focus {
 	outline: 0 solid transparent;
 }
+
 textarea:focus,
 button:focus,
 button:active,
@@ -38,6 +40,7 @@ input[type="checkbox"]:focus,
 	border-color: #444 !important;
 	box-shadow: none !important;
 }
+
 .btn {
 	text-transform: uppercase;
 	color: #fff !important;
@@ -50,6 +53,7 @@ input[type="checkbox"]:focus,
 .btn:focus {
 	transition: 0.5s ease;
 }
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:active,

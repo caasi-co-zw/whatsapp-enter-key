@@ -14,5 +14,11 @@ function element_exists(id){
 }
 
 function init(){
-  // if(element_exists())
+  if(element_exists('conversation-compose-box-input')){
+    console.log('Found message box');
+  } else {
+    console.log('there is an error');
+  }
 }
+
+init();
